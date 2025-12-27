@@ -1,16 +1,23 @@
-# React + Vite
+# ⚛️ React Fundamentals: State & Interactivity
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project serves as my **official entry point into React development**. It focuses on the transition from static HTML/JS to dynamic, component-based UI development using modern tools.
 
-Currently, two official plugins are available:
+## 🚀 Key Learning Objectives
+The goal of this project was to master the "Bread and Butter" of React:
+- **Component Architecture:** Breaking the UI into reusable sections.
+- **Vite:** Leveraging modern build tools for a faster development workflow.
+- **The Hook System:** Implementing logic inside functional components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Technical Concepts Implemented
+- **`useState()` Hook:** Managed application state to create a truly "reactive" experience where the UI updates instantly.
+- **`onChange` Event Handling:** Captured real-time user input to update state and synchronize data across components.
+- **Two-Way Data Binding:** Ensuring the input field and the state stay perfectly in sync.
 
-## React Compiler
+## 📂 Project Structure
+- `src/`: Contains all React components and logic.
+- `App.jsx`: The main entry point where State is managed.
+- `CSS Modules`: Implemented for scoped, maintainable styling.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+## 🎓 Acknowledgements
+Huge shoutout to **Bro Code** for providing such an in-depth and high-quality React course for free. This project was built while following the first 2.5 hours of his [React Full Course](https://www.youtube.com/watch?v=CgkZ7MvWUAA).

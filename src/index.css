@@ -1,0 +1,46 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  color-scheme: light dark;
+  color: rgba(238, 238, 238, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr)
+}
+
+.lightText {
+  color: rgba(238, 238, 238, 0.6); /* lighter than heading */
+  font-weight: 400;
+  color: #bdbdbd;
+  font-style: italic;
+}
+
+
+.showData{
+  margin-top: 25px;
+  border: 1px solid;
+  height: fit-content;
+  filter: drop-shadow(0px 0px 15px rgba(0,0,0,0.5));
+  width:25em;
+  padding: 20px;
+  border-radius: 15px;
+
+}
+
+h1{
+  text-decoration:underline;
+}
+
+p{
+  display: flex;
+  justify-content: center;
+
+}

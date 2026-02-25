@@ -1,3 +1,4 @@
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -43,4 +44,27 @@ p{
   display: flex;
   justify-content: center;
 
+}
+/* Mobile Responsive Styles */
+/* 1. Ensure the main container doesn't have a fixed 'width' like 500px */
+.container {
+  width: 95%;          /* Use percentage for mobile */
+  max-width: 500px;    /* It will never get bigger than 500px on desktop */
+  margin: 0 auto;      /* This centers it perfectly */
+  padding: 20px;
+  box-sizing: border-box; /* Crucial: ensures padding doesn't add to width */
+}
+
+/* 2. Fix the text alignment */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centers the whole app on the screen */
+}
+
+/* 3. Make sure inputs don't overflow the screen */
+input, textarea, select {
+  max-width: 100%;
+  box-sizing: border-box;
 }

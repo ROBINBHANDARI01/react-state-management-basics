@@ -20,4 +20,8 @@ The goal of this project was to master the "Bread and Butter" of React:
 
 ---
 ## 🎓 Acknowledgements
+<<<<<<< HEAD
 Huge shoutout to **Bro Code** for providing such an in-depth and high-quality React course for free. This project was built while following the first 2.5 hours of his [React Full Course](https://www.youtube.com/watch?v=CgkZ7MvWUAA).
+=======
+Huge shoutout to **Bro Code** for providing such an in-depth and high-quality React course for free. This project was built while following the first 2.5 hours of his [React Full Course](https://www.youtube.com/watch?v=CgkZ7MvWUAA).
+>>>>>>> 19b1996f7663f9b8594c32b19e6f6b0d1262e46e
